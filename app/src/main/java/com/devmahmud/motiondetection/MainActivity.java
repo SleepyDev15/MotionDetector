@@ -56,12 +56,12 @@ public class MainActivity extends AppCompatActivity {
         motionDetector.setMotionDetectorCallback(new MotionDetectorCallback() {
             @Override
             public void onMotionDetected() {
-
+                Toast.makeText(MainActivity.this, "Detected", Toast.LENGTH_SHORT).show();
             }
 
             @Override
             public void onTooDark() {
-
+                Toast.makeText(MainActivity.this, "Its Too Dark", Toast.LENGTH_SHORT).show();
             }
         });
     }
