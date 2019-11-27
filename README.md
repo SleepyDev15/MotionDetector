@@ -10,14 +10,16 @@ You need to add below permission
     
 Code: 
 You have to use a surfaceView in your layout
-<SurfaceView
-        android:layout_weight="1"
-        android:layout_width="0dp"
-        android:layout_height="match_parent"
-        android:id="@+id/surfaceView" />
+            <SurfaceView
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:id="@+id/surfaceView" />
         
 After pemission granted add this code to your activity. 
- MotionDetector motionDetector = new MotionDetector(this, (SurfaceView) findViewById(R.id.surfaceView));
+ 
+    
+        MotionDetector motionDetector = new MotionDetector(this, (SurfaceView) findViewById(R.id.surfaceView));
 
         motionDetector.setMotionDetectorCallback(new MotionDetectorCallback() {
             @Override
