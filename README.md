@@ -3,7 +3,7 @@ This android library helps you to detect any motion in front of camera.
  
 Dependency: 
           
-     implementation 'com.github.SleepyDev15:MotionDetector:1.0.0'
+     implementation 'com.github.Hijbullah-Mahmud:MotionDetector:1.0.0'
 
 
 
